@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Oxanium', cursive;
+  font-weight: 600;
+  font-size: 1.3rem;
+  text-align: center;
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(13, 161, 107, 1) 49%);
+
+}
+
+.container {
+  min-width: 300px;
+  width: 70%;
+  max-width: fit-content;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.calculadora {
+  min-width: 250px;
+  max-width: 100%;
+
+}
+
+.display {
+  font-size: 2rem;
+  width: 100%;
+  text-align: right;
+}
+
+.btn {
+  width: 100%;
+  height: 40px;
+  font-size: 1em;
+  border: none;
+  background-color: #dfdfdf;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #c5c5c5;
+}
+
+.btn-eq {
+  background-color: rgba(139, 231, 146, 0.4);
+}
+
+.btn-eq:hover {
+  background-color: rgba(139, 231, 146, 0.7);
+}
+
+.btnRed {
+  background-color: rgba(255, 0, 0, 0.39);
+}
+
+.btnRed:hover {
+  background-color: rgba(255, 0, 0, 0.7);
+}
