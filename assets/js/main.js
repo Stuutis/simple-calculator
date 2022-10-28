@@ -72,6 +72,7 @@ function createCalculator() {
     btnToDisplay(value) {
       //concatena o display com o innerText do botão clicado
       this.display.value += value;
+      this.display.focus();
     },
   };
 }
